@@ -1,17 +1,16 @@
 # 钙钛矿电解质筛选工具
 
-一个用来从67个CIF文件里找出好用的固态电解质的小工具。
 
 ## 目标
 
 从现有材料中筛选出2-3个符合要求的电解质：
-- 不含Ti（这玩意儿会阻碍Li离子传导）
+- 不含Ti（这玩意儿阻碍Li离子传导）
 - 与Li金属界面友好
 - 电导率 >= 10⁻³ S/cm
 
 ## 筛选结果
 
-跑出来几个不错的：
+举例：跑出来几个不错的：
 
 | 材料 | 激活能 (eV) | 电导率 (S/cm) | 评价 |
 |------|-------------|---------------|------|
@@ -19,24 +18,6 @@
 | LiNbO₃ | 0.15 | 1.2×10⁻³ | 不错 |
 | LiTaO₃ | 0.18 | 8.5×10⁻⁴ | 还行 |
 
-## 文件结构
-
-```
-data/
-├── raw_materials/          # 原始67个CIF文件
-└── external_materials/     # 外部参考材料
-
-src/
-├── core/                   # 核心筛选程序
-├── ml/                     # 机器学习模块
-├── simulation/             # 仿真计算
-├── interface/              # Web界面
-└── utils/                  # 工具脚本
-
-results/
-├── json_data/              # 计算结果
-├── generated_materials/    # 生成的30个Ti替换材料
-└── visualizations/         # 分析图表
 ```
 
 ## 快速使用
@@ -103,7 +84,6 @@ MIT License - 随便用
 
 # Perovskite Electrolyte Screening Tool
 
-A small tool to find good solid electrolytes from 67 CIF files.
 
 ## Goals
 
@@ -121,25 +101,6 @@ Found a few decent ones:
 | Li₇La₃Zr₂O₁₂ | 0.10 | 1.5×10⁻³ | Good |
 | LiNbO₃ | 0.15 | 1.2×10⁻³ | OK |
 | LiTaO₃ | 0.18 | 8.5×10⁻⁴ | Decent |
-
-## File Structure
-
-```
-data/
-├── raw_materials/          # Original 67 CIF files
-└── external_materials/     # External reference materials
-
-src/
-├── core/                   # Core screening programs
-├── ml/                     # Machine learning modules
-├── simulation/             # Simulation calculations
-├── interface/              # Web interface
-└── utils/                  # Utility scripts
-
-results/
-├── json_data/              # Calculation results
-├── generated_materials/    # Generated 30 Ti-substituted materials
-└── visualizations/         # Analysis charts
 ```
 
 ## Quick Start
