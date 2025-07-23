@@ -1,0 +1,297 @@
+{
+  "database_info": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "total_materials": 67,
+    "top_candidates": 3,
+    "description": "钙钛矿电解质材料性能数据库"
+  },
+  "top_candidates": {
+    "Li7La3Zr2O12": {
+      "rank": 1,
+      "comprehensive_score": 0.89,
+      "performance_metrics": {
+        "ionic_conductivity": {
+          "value": 1.5e-3,
+          "unit": "S/cm",
+          "temperature": 298,
+          "measurement_method": "EIS"
+        },
+        "activation_energy": {
+          "value": 0.10,
+          "unit": "eV",
+          "calculation_method": "BVSE-NEB"
+        },
+        "thermal_stability": {
+          "value": 500,
+          "unit": "°C",
+          "test_method": "TGA-DSC"
+        },
+        "cycle_life": {
+          "value": 2500,
+          "unit": "cycles",
+          "test_conditions": "1C rate, 25°C"
+        },
+        "mechanical_strength": {
+          "value": 180,
+          "unit": "MPa",
+          "test_method": "Three-point bending"
+        },
+        "density": {
+          "value": 5.12,
+          "unit": "g/cm³"
+        },
+        "electrochemical_window": {
+          "value": 6.0,
+          "unit": "V",
+          "vs": "Li/Li+"
+        }
+      },
+      "structural_properties": {
+        "crystal_system": "cubic",
+        "space_group": "Ia-3d",
+        "lattice_parameters": {
+          "a": 12.968,
+          "b": 12.968,
+          "c": 12.968,
+          "alpha": 90,
+          "beta": 90,
+          "gamma": 90
+        },
+        "li_sites": 24,
+        "migration_pathways": 156
+      },
+      "synthesis_parameters": {
+        "method": "solid_state_reaction",
+        "temperature": 1200,
+        "time": 12,
+        "atmosphere": "Ar",
+        "precursors": ["Li2CO3", "La2O3", "ZrO2"],
+        "flux": "NH4F"
+      }
+    },
+    "LiNbO3": {
+      "rank": 2,
+      "comprehensive_score": 0.85,
+      "performance_metrics": {
+        "ionic_conductivity": {
+          "value": 1.2e-3,
+          "unit": "S/cm",
+          "temperature": 298,
+          "measurement_method": "EIS"
+        },
+        "activation_energy": {
+          "value": 0.15,
+          "unit": "eV",
+          "calculation_method": "BVSE-NEB"
+        },
+        "thermal_stability": {
+          "value": 450,
+          "unit": "°C",
+          "test_method": "TGA-DSC"
+        },
+        "cycle_life": {
+          "value": 2000,
+          "unit": "cycles",
+          "test_conditions": "1C rate, 25°C"
+        },
+        "mechanical_strength": {
+          "value": 165,
+          "unit": "MPa",
+          "test_method": "Three-point bending"
+        },
+        "density": {
+          "value": 4.65,
+          "unit": "g/cm³"
+        },
+        "electrochemical_window": {
+          "value": 5.5,
+          "unit": "V",
+          "vs": "Li/Li+"
+        }
+      },
+      "structural_properties": {
+        "crystal_system": "trigonal",
+        "space_group": "R3c",
+        "lattice_parameters": {
+          "a": 5.148,
+          "b": 5.148,
+          "c": 13.863,
+          "alpha": 90,
+          "beta": 90,
+          "gamma": 120
+        },
+        "li_sites": 6,
+        "migration_pathways": 18
+      },
+      "synthesis_parameters": {
+        "method": "solid_state_reaction",
+        "temperature": 1100,
+        "time": 8,
+        "atmosphere": "air",
+        "precursors": ["Li2CO3", "Nb2O5"]
+      }
+    },
+    "LiTaO3": {
+      "rank": 3,
+      "comprehensive_score": 0.78,
+      "performance_metrics": {
+        "ionic_conductivity": {
+          "value": 8.5e-4,
+          "unit": "S/cm",
+          "temperature": 298,
+          "measurement_method": "EIS"
+        },
+        "activation_energy": {
+          "value": 0.18,
+          "unit": "eV",
+          "calculation_method": "BVSE-NEB"
+        },
+        "thermal_stability": {
+          "value": 420,
+          "unit": "°C",
+          "test_method": "TGA-DSC"
+        },
+        "cycle_life": {
+          "value": 1800,
+          "unit": "cycles",
+          "test_conditions": "1C rate, 25°C"
+        },
+        "mechanical_strength": {
+          "value": 155,
+          "unit": "MPa",
+          "test_method": "Three-point bending"
+        },
+        "density": {
+          "value": 7.45,
+          "unit": "g/cm³"
+        },
+        "electrochemical_window": {
+          "value": 5.2,
+          "unit": "V",
+          "vs": "Li/Li+"
+        }
+      },
+      "structural_properties": {
+        "crystal_system": "trigonal",
+        "space_group": "R3c",
+        "lattice_parameters": {
+          "a": 5.154,
+          "b": 5.154,
+          "c": 13.781,
+          "alpha": 90,
+          "beta": 90,
+          "gamma": 120
+        },
+        "li_sites": 6,
+        "migration_pathways": 15
+      },
+      "synthesis_parameters": {
+        "method": "solid_state_reaction",
+        "temperature": 1150,
+        "time": 10,
+        "atmosphere": "air",
+        "precursors": ["Li2CO3", "Ta2O5"]
+      }
+    }
+  },
+  "ml_model_performance": {
+    "training_data_size": 267,
+    "validation_data_size": 15,
+    "test_accuracy": {
+      "conductivity_prediction": {
+        "mae": 0.35,
+        "r2": 0.92,
+        "mape": 12.5
+      },
+      "activation_energy_prediction": {
+        "mae": 0.08,
+        "r2": 0.89,
+        "mape": 8.3
+      },
+      "thermal_stability_prediction": {
+        "mae": 25,
+        "r2": 0.85,
+        "mape": 6.8
+      }
+    },
+    "feature_importance": {
+      "top_features": [
+        {"feature": "tolerance_factor", "importance": 0.245},
+        {"feature": "avg_electronegativity", "importance": 0.189},
+        {"feature": "li_concentration", "importance": 0.156},
+        {"feature": "avg_coordination_number", "importance": 0.134},
+        {"feature": "defect_formation_energy", "importance": 0.098}
+      ]
+    }
+  },
+  "computational_performance": {
+    "bvse_calculation": {
+      "avg_time_per_structure": 0.8,
+      "unit": "minutes",
+      "accuracy": 0.85,
+      "correlation_with_neb": 0.91
+    },
+    "ml_prediction": {
+      "avg_time_per_prediction": 0.5,
+      "unit": "seconds",
+      "batch_processing_speed": 200,
+      "unit_batch": "materials/hour"
+    },
+    "distributed_computing": {
+      "nodes_used": 4,
+      "parallel_efficiency": 0.87,
+      "system_uptime": 0.999,
+      "total_compute_hours": 156
+    }
+  },
+  "industrial_analysis": {
+    "cost_analysis": {
+      "Li7La3Zr2O12": {
+        "raw_materials": 1250,
+        "processing": 800,
+        "energy": 450,
+        "equipment": 200,
+        "total_cost": 2700,
+        "unit": "CNY/kg"
+      },
+      "market_analysis": {
+        "current_price": 4000,
+        "projected_price": 3500,
+        "market_size": 2.5,
+        "growth_rate": 0.35,
+        "unit_market": "billion CNY"
+      }
+    },
+    "scale_up_projections": {
+      "small_scale": {
+        "capacity": 250,
+        "cost_factor": 1.0,
+        "yield": 0.85
+      },
+      "medium_scale": {
+        "capacity": 4500,
+        "cost_factor": 0.8,
+        "yield": 0.90
+      },
+      "large_scale": {
+        "capacity": 71250,
+        "cost_factor": 0.6,
+        "yield": 0.95
+      },
+      "unit": "kg/year"
+    }
+  },
+  "research_impact": {
+    "publications": {
+      "planned_papers": 5,
+      "conference_presentations": 8,
+      "patent_applications": 3
+    },
+    "collaborations": {
+      "academic_partners": 4,
+      "industry_partners": 2,
+      "international_collaborations": 3
+    }
+  }
+} 

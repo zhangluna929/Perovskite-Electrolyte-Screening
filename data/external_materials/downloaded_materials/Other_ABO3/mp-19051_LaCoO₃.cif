@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="">
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="http://next-gen.materialsproject.org/materials/mp-19051/cif">
+      <meta property="twitter:title" content="Materials Project">
+      <meta property="twitter:description" content="">
+      <meta property="twitter:image" content="">
+      <meta property="og:title" content="Materials Project">
+      <meta property="og:type" content="website">
+      <meta property="og:description" content="">
+      <meta property="og:image" content="">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="generator" content="Crystal Toolkit 2025.6.11rc0 (Materials Project)">
+        <meta property="og:title" content="Materials Project - Materials Explorer - mp-19051/cif" />
+        <meta property="og:description" content="Search for materials information by chemistry, composition, or property." />
+        <meta property="og:site_name" content="Materials Project">
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico?m=1749686585.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="/assets/main.dd80d01f2ee8a348113f.css?m=1749686651.0">
+    </head>
+    <body>
+        
+<div id="react-entry-point">
+    <div class="_dash-loading">
+        Loading...
+    </div>
+</div>
+
+        <footer>
+            <script id="_dash-config" type="application/json">{"url_base_pathname":null,"requests_pathname_prefix":"\u002f","ui":false,"props_check":false,"show_undo_redo":false,"suppress_callback_exceptions":true,"update_title":"Updating...","children_props":{"dash_core_components":{"Checklist":["options[].label"],"Clipboard":[],"ConfirmDialog":[],"ConfirmDialogProvider":[],"DatePickerRange":[],"DatePickerSingle":[],"Download":[],"Dropdown":["options[].label"],"Geolocation":[],"Graph":[],"Input":[],"Interval":[],"Link":[],"Loading":["custom_spinner"],"Location":[],"LogoutButton":[],"Markdown":[],"RadioItems":["options[].label"],"RangeSlider":[],"Slider":[],"Store":[],"Tab":[],"Tabs":[],"Textarea":[],"Tooltip":[],"Upload":[]},"dash_html_components":{"A":[],"Abbr":[],"Acronym":[],"Address":[],"Area":[],"Article":[],"Aside":[],"Audio":[],"B":[],"Base":[],"Basefont":[],"Bdi":[],"Bdo":[],"Big":[],"Blink":[],"Blockquote":[],"Br":[],"Button":[],"Canvas":[],"Caption":[],"Center":[],"Cite":[],"Code":[],"Col":[],"Colgroup":[],"Content":[],"Data":[],"Datalist":[],"Dd":[],"Del":[],"Details":[],"Dfn":[],"Dialog":[],"Div":[],"Dl":[],"Dt":[],"Em":[],"Embed":[],"Fieldset":[],"Figcaption":[],"Figure":[],"Font":[],"Footer":[],"Form":[],"Frame":[],"Frameset":[],"H1":[],"H2":[],"H3":[],"H4":[],"H5":[],"H6":[],"Header":[],"Hgroup":[],"Hr":[],"I":[],"Iframe":[],"Img":[],"Ins":[],"Kbd":[],"Keygen":[],"Label":[],"Legend":[],"Li":[],"Link":[],"Main":[],"MapEl":[],"Mark":[],"Marquee":[],"Meta":[],"Meter":[],"Nav":[],"Nobr":[],"Noscript":[],"ObjectEl":[],"Ol":[],"Optgroup":[],"Option":[],"Output":[],"P":[],"Param":[],"Picture":[],"Plaintext":[],"Pre":[],"Progress":[],"Q":[],"Rb":[],"Rp":[],"Rt":[],"Rtc":[],"Ruby":[],"S":[],"Samp":[],"Script":[],"Section":[],"Select":[],"Shadow":[],"Slot":[],"Small":[],"Source":[],"Spacer":[],"Span":[],"Strike":[],"Strong":[],"Sub":[],"Summary":[],"Sup":[],"Table":[],"Tbody":[],"Td":[],"Template":[],"Textarea":[],"Tfoot":[],"Th":[],"Thead":[],"Time":[],"Title":[],"Tr":[],"Track":[],"U":[],"Ul":[],"Var":[],"Video":[],"Wbr":[],"Xmp":[]},"dash_table":{"DataTable":[]},"dash_mp_components":{"JsonView":[],"MatSidebar":[],"CameraContextProvider":[],"CrystalToolkitScene":[],"Download":[],"GraphComponent":[],"DataBlock":["footer"],"DataTable":[],"DownloadButton":[],"DownloadDropdown":[],"Drawer":[],"DrawerContextProvider":[],"DrawerTrigger":[],"Enlargeable":[],"Formula":[],"Markdown":[],"Modal":[],"ModalContextProvider":[],"ModalTrigger":[],"SearchUIContainer":[],"SearchUIDataHeader":["exportDataButton"],"SearchUIDataView":[],"SearchUIFilters":[],"SearchUIGrid":["exportDataButton"],"SearchUISearchBar":[],"SynthesisRecipeCard":[],"Tooltip":[],"DualRangeSlider":[],"FilterField":[],"GlobalSearchBar":[],"MaterialsInput":[],"RangeSlider":[],"Select":[],"Switch":[],"Dropdown":[],"Link":[],"Navbar":[],"NavbarDropdown":[],"NotificationDropdown":[],"Scrollspy":[],"Tabs":[],"PeriodicContext":[],"PeriodicContextTable":[],"PeriodicElement":[],"PeriodicFilter":[],"PeriodicTableInput":[],"BibCard":[],"BibFilter":[],"BibjsonCard":[],"BibtexButton":[],"CrossrefCard":[],"OpenAccessButton":[],"PublicationButton":[]},"crystal_toolkit":{"Field":null,"Control":null,"Input":null,"Textarea":null,"File":null,"Label":null,"Help":null,"Block":null,"Box":null,"Button":null,"Content":null,"Delete":null,"Icon":null,"Image":null,"Notification":null,"Error":null,"Progress":null,"Table":null,"Tag":null,"TagContainer":null,"H1":null,"H2":null,"H3":null,"H4":null,"H5":null,"H6":null,"Breadcrumb":null,"Card":null,"CardHeader":null,"CardImage":null,"CardContent":null,"CardFooter":null,"CardFooterItem":null,"MessageContainer":null,"MessageHeader":null,"MessageBody":null,"Modal":null,"Pagination":null,"PaginationPrevious":null,"PaginationNext":null,"PaginationList":null,"PaginationLink":null,"PaginationEllipsis":null,"Container":null,"Level":null,"LevelLeft":null,"LevelRight":null,"LevelItem":null,"Hero":null,"HeroBody":null,"HeroHead":null,"HeroFoot":null,"Section":null,"Footer":null,"Tile":null,"Columns":null,"Column":null,"Reveal":null,"Loading":null,"Spinner":null},"mp_web":{"searchUIAIO":null,"ProjectViewAIO":null},"dash_bootstrap_components":{"Accordion":[],"AccordionItem":["title"],"Alert":[],"Badge":[],"Breadcrumb":[],"Button":[],"ButtonGroup":[],"Card":[],"CardBody":[],"CardFooter":[],"CardGroup":[],"CardHeader":[],"CardImg":[],"CardImgOverlay":[],"CardLink":[],"Carousel":[],"Collapse":[],"DropdownMenu":["label"],"DropdownMenuItem":[],"Fade":[],"Form":[],"FormFeedback":[],"FormFloating":[],"FormText":[],"Label":[],"Checkbox":["label"],"Checklist":["options[].label"],"Input":[],"InputGroup":[],"InputGroupText":[],"RadioButton":["label"],"RadioItems":["options[].label"],"Select":[],"Switch":["label"],"Textarea":[],"Col":[],"Container":[],"Row":[],"Stack":[],"ListGroup":[],"ListGroupItem":[],"Modal":[],"ModalBody":[],"ModalFooter":[],"ModalHeader":[],"ModalTitle":[],"Nav":[],"NavItem":[],"NavLink":[],"Navbar":[],"NavbarBrand":[],"NavbarSimple":["brand"],"NavbarToggler":[],"Offcanvas":["title"],"Pagination":[],"Placeholder":[],"Popover":[],"PopoverBody":[],"PopoverHeader":[],"Progress":[],"Spinner":[],"Table":[],"Tab":[],"Tabs":[],"Toast":["header"],"Tooltip":[]},"dash_ag_grid":{"AgGrid":[]},"dash_mantine_components":{"Accordion":["chevron"],"AccordionControl":["chevron","icon"],"AccordionItem":[],"AccordionMultiple":["chevron"],"AccordionPanel":[],"AppShell":["navbar","aside","header","footer"],"Aside":[],"Footer":[],"Header":[],"Navbar":[],"Avatar":[],"AvatarGroup":[],"Button":["leftIcon","rightIcon"],"ButtonGroup":[],"Card":[],"CardSection":[],"Checkbox":["label"],"CheckboxGroup":["label","description","error"],"Chip":[],"ChipGroup":[],"HoverCard":[],"HoverCardDropdown":[],"HoverCardTarget":[],"BackgroundImage":[],"Image":["placeholder","caption"],"List":["icon"],"ListItem":["icon"],"Menu":[],"MenuDivider":[],"MenuDropdown":[],"MenuItem":["icon","rightSection"],"MenuLabel":[],"MenuTarget":[],"Radio":["label"],"RadioGroup":["label","description","error"],"MultiSelect":["nothingFound","label","description","error","icon","rightSection"],"Select":["nothingFound","label","description","error","icon","rightSection"],"RangeSlider":["marks[].label","thumbChildren"],"Slider":["marks[].label","thumbChildren"],"Stepper":["completedIcon","progressIcon"],"StepperCompleted":[],"StepperStep":["icon","completedIcon","progressIcon","label","description"],"Tab":["rightSection","icon"],"Tabs":[],"TabsList":[],"TabsPanel":[],"JsonInput":["validationError","icon","rightSection","label","description","error"],"NumberInput":["icon","rightSection","label","description","error"],"PasswordInput":["icon","rightSection","label","description","error"],"TextInput":["icon","rightSection","label","description","error"],"Textarea":["icon","rightSection","label","description","error"],"Timeline":[],"TimelineItem":["title","bullet"],"FloatingTooltip":["label"],"Tooltip":["label"],"ActionIcon":[],"Affix":[],"Alert":["title","icon"],"Anchor":[],"Badge":["leftSection","rightSection"],"Blockquote":["icon","cite"],"Breadcrumbs":["separator"],"Burger":[],"Center":[],"Code":[],"Col":[],"ColorPicker":[],"Container":[],"Divider":["label"],"Drawer":["title"],"Grid":[],"Group":[],"Highlight":[],"Indicator":["label"],"Kbd":[],"Loader":[],"LoadingOverlay":["loader"],"MantineProvider":[],"Mark":[],"MediaQuery":[],"Modal":["title"],"NavLink":["label","description","icon","rightSection"],"Pagination":[],"Paper":[],"Prism":[],"Progress":["sections[].tooltip"],"RingProgress":["label","sections[].tooltip"],"ScrollArea":[],"SegmentedControl":[],"SimpleGrid":[],"Skeleton":[],"Space":[],"Spoiler":[],"Stack":[],"Switch":["label","offLabel","onLabel","thumbIcon"],"Table":[],"Text":[],"ThemeIcon":[],"Title":[],"TransferList":[],"DatePicker":["icon","rightSection","label","description","error"],"DateRangePicker":["icon","rightSection","label","description","error"],"TimeInput":["icon","rightSection","label","description","error"],"DemoSegmentedControl":[],"DemoSlider":[],"Notification":["icon","title","message"],"NotificationsProvider":[]},"dash_iconify":{"DashIconify":null},"dash_bio":{"AlignmentChart":null,"Circos":null,"FornaContainer":null,"Ideogram":null,"Igv":null,"Jsme":null,"Molecule2dViewer":null,"Molecule3dViewer":null,"NeedlePlot":null,"NglMoleculeViewer":null,"OncoPrint":null,"Pileup":null,"SequenceViewer":null,"Speck":null},"dash_vega_components":{"Vega":[]},"mpships":{"VegaGraphTableAIO":null,"MaterialsGraphAIO":null,"RedoxThermoCSPAIO":null}},"serve_locally":false,"plotlyjs_url":"https:\u002f\u002fcdn.plot.ly\u002fplotly-2.35.2.min.js"}</script>
+            <script src="https://unpkg.com/@babel/polyfill@7.12.1/dist/polyfill.min.js"></script>
+<script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="https://materialsproject.statuspage.io/embed/script.js"></script>
+<script src="https://unpkg.com/@materialsproject/dash-mp-components@0.4.47/dash_mp_components/dash_mp_components.min.js"></script>
+<script src="https://unpkg.com/dash-bootstrap-components@1.7.1/dist/dash_bootstrap_components.min.js"></script>
+<script src="https://unpkg.com/dash-ag-grid@31.2.0/dash_ag_grid/dash_ag_grid.min.js"></script>
+<script src="https://unpkg.com/dash_mantine_components@0.12.1/dash_mantine_components/dash_mantine_components.js"></script>
+<script src="https://unpkg.com/dash_iconify@0.1.2/dash_iconify/dash_iconify.min.js"></script>
+<script src="https://unpkg.com/dash-dangerously-set-inner-html@0.0.2/dash_dangerously_set_inner_html/bundle.js"></script>
+<script src="https://unpkg.com/dash-bio@1.0.2/dash_bio/bundle.js"></script>
+<script src="/_dash-component-suites/dash_vega_components/dash_vega_components.v0_11_0m1749686908.min.js"></script>
+<script src="/assets/dashAgGridComponentFunctions.js?m=1749686585.0"></script>
+<script src="/assets/dashAgGridFunctions.js?m=1749686585.0"></script>
+<script src="/assets/tooltip.js?m=1749686585.0"></script>
+<script src="https://unpkg.com/dash-renderer@1.21.1/build/dash_renderer.min.js"></script>
+<script src="https://unpkg.com/dash-core-components@2.14.3/dash_core_components/dash_core_components.js"></script>
+<script src="https://unpkg.com/dash-core-components@2.14.3/dash_core_components/dash_core_components-shared.js"></script>
+<script src="https://unpkg.com/dash-html-components@2.0.20/dash_html_components/dash_html_components.min.js"></script>
+<script src="https://unpkg.com/dash-table@5.2.13/dash_table/bundle.js"></script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["b73f85307415f336c420483b463c0fc15a4fc286f0d632bcae9b434129185589"] = 
+        function(data) {
+            if (data && data.title && data.meta) {
+
+                    document.title = data.title;
+                    document.meta = data.meta;
+
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["0fc7e1ad1fb1c8b5498aea0632225b6c047ef2f422f185d7074f7cb5ea99d147"] = 
+            function validateInput(inputValue, regexPattern) {
+                var pattern = new RegExp(regexPattern);
+                var inputStyle =  {"outline": "solid red"};
+                console.log(inputValue);
+                if (inputValue === "" || inputValue === null) {
+                    // If the input value is empty
+                   inputStyle = {"outline": "none"}
+                } else
+                if (!pattern.test(inputValue)) {
+                    // If the input value does not match the regex, set the outline to red
+                    inputStyle = {"outline": "solid red"}
+                } else {
+                    // If the input value matches the regex
+                    inputStyle = {"outline": "none"}
+                }
+                return inputStyle
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["5989020efe8a2ae633b3178ad4d4970dd31de30ac6d47c27c35dc334b00c6887"] = 
+            function validateInput(inputValue, inputPattern) {
+                const isInputValid = new RegExp(inputPattern).test(inputValue);
+                return isInputValid;
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["5989020efe8a2ae633b3178ad4d4970dd31de30ac6d47c27c35dc334b00c6887"] = 
+            function validateInput(inputValue, inputPattern) {
+                const isInputValid = new RegExp(inputPattern).test(inputValue);
+                return isInputValid;
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["de5c9609019449589deae86af35ae540a8f3915513289fffbde980735ad9ccdf"] = 
+            function validateInput(inputValue, inputPattern) {
+                const isInputValid = new RegExp(inputPattern).test(inputValue);
+                return isInputValid
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["bd4a0ece109fda910484aada3ad52c550c99949cb0d8577dfe72b9681d7d71b7"] = 
+            async function validateInput(doi_value, doi_pattern, condition_value, condition_pattern, number, scale_value, property_value, unit_value) {
+
+                let button_disabled = true;
+                let doi_valid = false;
+                let hidden_doi_message = true;
+
+                // function to check if the doi exists
+                async function validateDOI(doi_value) {
+                    const url = `https://doi.org/api/handles/${doi_value}`;
+                    const response = await fetch(url);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    return data;
+                }
+
+                // Validate DOI value against the DOI pattern and check if it is a valid DOI
+                if (doi_value) {
+                    const regex_doi_pattern = new RegExp(doi_pattern);
+                    if (regex_doi_pattern.test(doi_value)) {
+                        try {
+                            data = await validateDOI(doi_value);
+                            if (data.responseCode === 1) {
+                                values = data.values;
+                                const urls = values.filter(v => v.type === 'URL').map(v => v.data.value);
+                                doi_valid = urls[0] !== null ? true : false;
+                            } else {
+                                hidden_doi_message = false;
+                            }
+                        } catch(err) {
+                            hidden_doi_message = false;
+                        };
+                    } else {
+                        hidden_doi_message = false;
+                    }
+                }
+                scale_valid = scale_value !== null ? !isNaN(scale_value) : true
+
+
+                // Validate the input fields
+                if (
+                    property_value &&
+                    number &&
+                    !isNaN(number) &&
+                    scale_valid &&
+                    unit_value &&
+                    doi_value &&
+                    new RegExp(condition_pattern).test(condition_value) &&
+                    doi_valid
+                ) {
+                    button_disabled = false;
+                }
+
+                return [button_disabled, hidden_doi_message];
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["0fc7e1ad1fb1c8b5498aea0632225b6c047ef2f422f185d7074f7cb5ea99d147"] = 
+            function validateInput(inputValue, regexPattern) {
+                var pattern = new RegExp(regexPattern);
+                var inputStyle =  {"outline": "solid red"};
+                console.log(inputValue);
+                if (inputValue === "" || inputValue === null) {
+                    // If the input value is empty
+                   inputStyle = {"outline": "none"}
+                } else
+                if (!pattern.test(inputValue)) {
+                    // If the input value does not match the regex, set the outline to red
+                    inputStyle = {"outline": "solid red"}
+                } else {
+                    // If the input value matches the regex
+                    inputStyle = {"outline": "none"}
+                }
+                return inputStyle
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["5989020efe8a2ae633b3178ad4d4970dd31de30ac6d47c27c35dc334b00c6887"] = 
+            function validateInput(inputValue, inputPattern) {
+                const isInputValid = new RegExp(inputPattern).test(inputValue);
+                return isInputValid;
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["5989020efe8a2ae633b3178ad4d4970dd31de30ac6d47c27c35dc334b00c6887"] = 
+            function validateInput(inputValue, inputPattern) {
+                const isInputValid = new RegExp(inputPattern).test(inputValue);
+                return isInputValid;
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["de5c9609019449589deae86af35ae540a8f3915513289fffbde980735ad9ccdf"] = 
+            function validateInput(inputValue, inputPattern) {
+                const isInputValid = new RegExp(inputPattern).test(inputValue);
+                return isInputValid
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["bd4a0ece109fda910484aada3ad52c550c99949cb0d8577dfe72b9681d7d71b7"] = 
+            async function validateInput(doi_value, doi_pattern, condition_value, condition_pattern, number, scale_value, property_value, unit_value) {
+
+                let button_disabled = true;
+                let doi_valid = false;
+                let hidden_doi_message = true;
+
+                // function to check if the doi exists
+                async function validateDOI(doi_value) {
+                    const url = `https://doi.org/api/handles/${doi_value}`;
+                    const response = await fetch(url);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    return data;
+                }
+
+                // Validate DOI value against the DOI pattern and check if it is a valid DOI
+                if (doi_value) {
+                    const regex_doi_pattern = new RegExp(doi_pattern);
+                    if (regex_doi_pattern.test(doi_value)) {
+                        try {
+                            data = await validateDOI(doi_value);
+                            if (data.responseCode === 1) {
+                                values = data.values;
+                                const urls = values.filter(v => v.type === 'URL').map(v => v.data.value);
+                                doi_valid = urls[0] !== null ? true : false;
+                            } else {
+                                hidden_doi_message = false;
+                            }
+                        } catch(err) {
+                            hidden_doi_message = false;
+                        };
+                    } else {
+                        hidden_doi_message = false;
+                    }
+                }
+                scale_valid = scale_value !== null ? !isNaN(scale_value) : true
+
+
+                // Validate the input fields
+                if (
+                    property_value &&
+                    number &&
+                    !isNaN(number) &&
+                    scale_valid &&
+                    unit_value &&
+                    doi_value &&
+                    new RegExp(condition_pattern).test(condition_value) &&
+                    doi_valid
+                ) {
+                    button_disabled = false;
+                }
+
+                return [button_disabled, hidden_doi_message];
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["92af2ab9da279e1060251bf54735b8676aa8dac5662910126355cf05f02c16fe"] = 
+            function (bonding_strategy, custom_cutoffs_rows, unit_cell_choice) {
+
+                const bonding_strategy_kwargs = {}
+                if (bonding_strategy === 'CutOffDictNN') {
+                    const cut_off_dict = []
+                    custom_cutoffs_rows.forEach(function(row) {
+                        cut_off_dict.push([row['A'], row['B'], parseFloat(row['A—B'])])
+                    })
+                    bonding_strategy_kwargs.cut_off_dict = cut_off_dict
+                }
+
+                return {
+                    bonding_strategy: bonding_strategy,
+                    bonding_strategy_kwargs: bonding_strategy_kwargs,
+                    unit_cell_choice: unit_cell_choice
+                }
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["a6e81957b44b7d8efbd93ec89a2ed8d02403a2b1f0ce411d7e34a98a30404ed3"] = 
+            function (values, options) {
+                const visibility = {}
+                options.forEach(function (opt) {
+                    visibility[opt.value] = Boolean(values.includes(opt.value))
+                })
+                return visibility
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["f7c4d7e06200d087aa05ff788ca5a24b4d5e3157d09d9169e0956980e3891994"] = 
+            function (colorScheme, radiusStrategy, drawOptions, displayOptions) {
+
+                const newDisplayOptions = {...displayOptions}
+                newDisplayOptions.color_scheme = colorScheme
+                newDisplayOptions.radius_strategy = radiusStrategy
+                newDisplayOptions.draw_image_atoms = drawOptions.includes('draw_image_atoms')
+                newDisplayOptions.bonded_sites_outside_unit_cell = drawOptions.includes(
+                    'bonded_sites_outside_unit_cell'
+                )
+                newDisplayOptions.hide_incomplete_bonds = drawOptions.includes('hide_incomplete_bonds')
+
+                return newDisplayOptions
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["1ff258cc617198bf3941fddb624f0cdc7e385fc07219ec826476ce561c592dfd"] = 
+            function(value) {
+                return window.location.search;
+            }
+            ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["0cef4186829f760c5e06f75556441aad5ec1177d2b1efcce59780ce0b84f455e"] = 
+        async function(nClick, sheetUrl) {
+            if (!nClick || !sheetUrl) {
+                return [null, null];
+            }
+            try {
+                // Extract the sheet ID from the URL
+                const sheetId = sheetUrl.split("/d/")[1].split("/")[0];
+                const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv`;
+
+                // Fetch CSV data
+                const response = await fetch(csvUrl);
+                if (!response.ok) {
+                    return [null, "Failed to fetch Google Sheet data"];
+                }
+
+                const csvText = await response.text();
+                const rows = csvText.split("\n").map(row => row.split(","));
+                const headers = rows[0].map(h => h.trim().replace(/^"|"$/g, "")); // Remove quotes from headers
+
+                //Convert headers to camelCase
+                function toCamelCase(str) {
+                    return str
+                        .replace(/\s(.)/g, (match) => match.toUpperCase()) // Capitalize letters after spaces
+                        .replace(/\s/g, '') // Remove spaces
+                        .replace(/^(.)/, (match) => match.toLowerCase()); // Lowercase first letter
+                }
+                let camelCaseHeaders = headers.map(toCamelCase);
+
+                // Ensure 'identifier' column exists
+                if (!camelCaseHeaders.includes("identifier")) {
+                    return [null, "Error: 'identifier' column is missing from the uploaded data."];
+                }
+
+                const data = rows.slice(1).map(row => {
+                    return Object.fromEntries(row.map((value, index) => {
+                        let cleanedValue = value.trim().replace(/^"|"$/g, ""); // Remove double quotes
+
+                        // Convert numbers if possible
+                        if (!isNaN(cleanedValue) && cleanedValue !== "") {
+                            cleanedValue = Number(cleanedValue);
+                        }
+                        // Convert boolean values (ONLY if it's a string)
+                        if (typeof cleanedValue === "string") {
+                            if (cleanedValue.toLowerCase() === "true") {
+                                cleanedValue = true;
+                            } else if (cleanedValue.toLowerCase() === "false") {
+                                cleanedValue = false;
+                            }
+                        }
+
+                        return [camelCaseHeaders[index], cleanedValue];
+                    }));
+                });
+
+                return [data, null]; // Successfully fetched and cleaned data
+            } catch (error) {
+                return [null, `Error importing Google Sheet: ${error.message}`];
+            }
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["740915767c5351392f8726095c04afe89cd49f6bc6dcb3cf18b0d1fb542f3937"] = function (n) {
+        return JSON.parse(sessionStorage.getItem("headerSelections"));
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["aaae2c0ddbb57c9fba8788c580ce39832531362c31ae331d95bcc82d03ee006e"] = async function (changedCell, id) {
+        gridApi = await dash_ag_grid.getApiAsync(id)
+        gridApi.refreshCells({force: true, columns: ['unit','description']})
+        return window.dash_clientside.no_update
+    };
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["effcdf75cc6316a231852d375cb5a3d03d6b126cc9c3382bc5d86c038ef843f1"] = 
+        function (change,  data) {
+            if (!!change || !!data) {
+            const leafNodes = (data || []).filter(row => row.unit_type !== "");
+
+            const allFieldsFilled = leafNodes.every(row => {
+                const hasDescription = !!row.description;
+                const hasUnit = (row.unit_type && row.unit_type == "numeric") ? !!row.unit : true;
+                return (hasUnit && hasDescription);
+            });
+
+            const allHeadersValid = leafNodes.every(row => {
+                // Check if the name contains only alphanumeric characters and is less than 15 characters
+                const isValid = /^[a-zA-Z0-9]+$/.test(row.name) && row.name.length <= 15;
+                return isValid;
+            });
+
+            return (!allFieldsFilled || !allHeadersValid);
+            }
+            return true;
+        }
+        ;
+})();
+</script>
+<script>
+(function() {
+    var clientside = window.dash_clientside = window.dash_clientside || {};
+    var ns = clientside["_dashprivate_clientside_funcs"] = clientside["_dashprivate_clientside_funcs"] || {};
+    ns["9ba0e378d70e04121963984e9caca4a10a432128ca6ea6167a9f1228f4a8c4da"] = 
+                function(data) {{
+                    document.title = data.title
+                }}
+                ;
+})();
+</script>
+            <script id="_dash-renderer" type="application/javascript">var renderer = new DashRenderer();</script>
+        </footer>
+    </body>
+</html>

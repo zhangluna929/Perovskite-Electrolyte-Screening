@@ -1,0 +1,92 @@
+# 钙钛矿材料扩展平台依赖项
+# Extended Platform Dependencies for Perovskite Materials
+
+# 核心科学计算库
+numpy>=1.20.0
+scipy>=1.7.0
+pandas>=1.3.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# 机器学习库
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+lightgbm>=3.2.0
+
+# 材料科学专用库
+pymatgen>=2022.0.0
+ase>=3.22.0
+phonopy>=2.12.0
+
+# 数据处理与可视化
+tqdm>=4.60.0
+plotly>=5.0.0
+dash>=2.0.0
+streamlit>=1.0.0
+
+# 数值优化
+hyperopt>=0.2.7
+optuna>=2.8.0
+bayesian-optimization>=1.2.0
+
+# 深度学习（可选）
+torch>=1.10.0
+tensorflow>=2.6.0
+
+# 文件处理
+h5py>=3.0.0
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+
+# 网络和API
+requests>=2.25.0
+urllib3>=1.26.0
+
+# 系统工具
+psutil>=5.8.0
+joblib>=1.0.0
+multiprocess>=0.70.0
+
+# 图形界面（可选）
+tkinter>=8.6.0
+PyQt5>=5.15.0
+
+# 开发和测试工具
+pytest>=6.0.0
+pytest-cov>=2.12.0
+black>=21.0.0
+flake8>=3.9.0
+
+# 文档生成
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
+
+# 配置管理
+pyyaml>=5.4.0
+toml>=0.10.0
+configparser>=5.0.0
+
+# 版本控制
+gitpython>=3.1.0
+
+# 性能分析
+line_profiler>=3.3.0
+memory_profiler>=0.58.0
+
+# 数据库支持
+sqlite3>=2.6.0
+sqlalchemy>=1.4.0
+
+# 云计算支持（可选）
+boto3>=1.18.0
+azure-storage-blob>=12.8.0
+google-cloud-storage>=1.42.0
+
+# 并行计算
+mpi4py>=3.1.0
+dask>=2021.6.0
+
+# 特殊用途
+rdkit>=2021.9.0  # 分子描述符计算
+phonopy>=2.12.0   # 声子计算
+spglib>=1.16.0    # 空间群分析 

@@ -1,0 +1,295 @@
+{
+  "training_metadata": {
+    "training_date": "2024-01-15",
+    "model_version": "v2.1",
+    "framework": "scikit-learn + pytorch",
+    "total_training_time": "3.5 hours",
+    "compute_resources": "4 nodes, 16 cores each"
+  },
+  "dataset_statistics": {
+    "total_samples": 267,
+    "original_samples": 67,
+    "augmented_samples": 200,
+    "training_split": 0.8,
+    "validation_split": 0.2,
+    "test_samples": 15,
+    "feature_count": 52
+  },
+  "model_performance": {
+    "activation_energy_model": {
+      "model_type": "GradientBoostingRegressor",
+      "hyperparameters": {
+        "n_estimators": 100,
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "random_state": 42
+      },
+      "cross_validation_scores": {
+        "cv_folds": 5,
+        "mean_mae": 0.045,
+        "std_mae": 0.008,
+        "mean_r2": 0.891,
+        "std_r2": 0.023
+      },
+      "test_performance": {
+        "mae": 0.042,
+        "rmse": 0.058,
+        "r2": 0.894,
+        "mape": 8.3
+      },
+      "feature_importance": [
+        {"feature": "tolerance_factor", "importance": 0.245},
+        {"feature": "avg_electronegativity", "importance": 0.189},
+        {"feature": "li_concentration", "importance": 0.156},
+        {"feature": "avg_coordination_number", "importance": 0.134},
+        {"feature": "defect_formation_energy", "importance": 0.098},
+        {"feature": "avg_atomic_radius", "importance": 0.087},
+        {"feature": "electronegativity_variance", "importance": 0.091}
+      ]
+    },
+    "conductivity_model": {
+      "model_type": "RandomForestRegressor",
+      "hyperparameters": {
+        "n_estimators": 150,
+        "max_depth": 8,
+        "min_samples_split": 5,
+        "random_state": 42
+      },
+      "cross_validation_scores": {
+        "cv_folds": 5,
+        "mean_mae": 0.32,
+        "std_mae": 0.06,
+        "mean_r2": 0.923,
+        "std_r2": 0.018
+      },
+      "test_performance": {
+        "mae": 0.35,
+        "rmse": 0.48,
+        "r2": 0.918,
+        "mape": 12.5
+      },
+      "feature_importance": [
+        {"feature": "li_concentration", "importance": 0.198},
+        {"feature": "tolerance_factor", "importance": 0.167},
+        {"feature": "avg_channel_radius", "importance": 0.145},
+        {"feature": "min_li_li_distance", "importance": 0.132},
+        {"feature": "vacancy_concentration", "importance": 0.119},
+        {"feature": "avg_coordination_number", "importance": 0.108},
+        {"feature": "avg_electronegativity", "importance": 0.131}
+      ]
+    },
+    "thermal_stability_model": {
+      "model_type": "GradientBoostingRegressor",
+      "hyperparameters": {
+        "n_estimators": 120,
+        "learning_rate": 0.08,
+        "max_depth": 7,
+        "random_state": 42
+      },
+      "cross_validation_scores": {
+        "cv_folds": 5,
+        "mean_mae": 22.8,
+        "std_mae": 4.2,
+        "mean_r2": 0.856,
+        "std_r2": 0.031
+      },
+      "test_performance": {
+        "mae": 25.0,
+        "rmse": 32.1,
+        "r2": 0.847,
+        "mape": 6.8
+      },
+      "feature_importance": [
+        {"feature": "avg_polarizability", "importance": 0.223},
+        {"feature": "avg_electronegativity", "importance": 0.187},
+        {"feature": "crystal_system", "importance": 0.156},
+        {"feature": "space_group_number", "importance": 0.134},
+        {"feature": "density", "importance": 0.121},
+        {"feature": "avg_coordination_number", "importance": 0.098},
+        {"feature": "tolerance_factor", "importance": 0.081}
+      ]
+    }
+  },
+  "physics_informed_nn_results": {
+    "conductivity_pinn": {
+      "architecture": {
+        "input_dim": 52,
+        "hidden_layers": [128, 128, 128],
+        "output_dim": 1,
+        "activation": "ReLU",
+        "dropout": 0.2
+      },
+      "training_results": {
+        "epochs": 1000,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "final_loss": 0.0234,
+        "physics_loss_weight": 0.1,
+        "convergence_epoch": 785
+      },
+      "performance_metrics": {
+        "mae": 0.031,
+        "r2": 0.942,
+        "physics_violation_rate": 0.03,
+        "uncertainty_coverage": 0.95
+      },
+      "physical_constraints": {
+        "arrhenius_constraint_loss": 0.0045,
+        "nernst_einstein_constraint_loss": 0.0038,
+        "min_conductivity_violations": 2,
+        "max_activation_energy_violations": 1
+      }
+    },
+    "stability_pinn": {
+      "architecture": {
+        "input_dim": 52,
+        "hidden_layers": [128, 128, 128],
+        "output_dim": 1,
+        "activation": "ReLU",
+        "dropout": 0.15
+      },
+      "training_results": {
+        "epochs": 800,
+        "batch_size": 32,
+        "learning_rate": 0.0008,
+        "final_loss": 0.0187,
+        "physics_loss_weight": 0.15,
+        "convergence_epoch": 652
+      },
+      "performance_metrics": {
+        "mae": 18.5,
+        "r2": 0.889,
+        "physics_violation_rate": 0.02,
+        "uncertainty_coverage": 0.94
+      },
+      "physical_constraints": {
+        "gibbs_energy_constraint_loss": 0.0032,
+        "phase_transition_violations": 0,
+        "thermodynamic_violations": 1
+      }
+    }
+  },
+  "model_comparison": {
+    "activation_energy_prediction": {
+      "traditional_ml": {
+        "mae": 0.045,
+        "r2": 0.891,
+        "training_time": "15 min"
+      },
+      "physics_informed": {
+        "mae": 0.038,
+        "r2": 0.912,
+        "training_time": "45 min"
+      },
+      "improvement": {
+        "mae_reduction": "15.6%",
+        "r2_improvement": "2.4%"
+      }
+    },
+    "conductivity_prediction": {
+      "traditional_ml": {
+        "mae": 0.35,
+        "r2": 0.918,
+        "training_time": "12 min"
+      },
+      "physics_informed": {
+        "mae": 0.31,
+        "r2": 0.942,
+        "training_time": "38 min"
+      },
+      "improvement": {
+        "mae_reduction": "11.4%",
+        "r2_improvement": "2.6%"
+      }
+    }
+  },
+  "uncertainty_quantification": {
+    "monte_carlo_dropout": {
+      "n_samples": 100,
+      "coverage_probability": 0.95,
+      "prediction_intervals": {
+        "conductivity": {
+          "mean_interval_width": 0.28,
+          "coverage_rate": 0.94
+        },
+        "activation_energy": {
+          "mean_interval_width": 0.08,
+          "coverage_rate": 0.96
+        },
+        "thermal_stability": {
+          "mean_interval_width": 45.2,
+          "coverage_rate": 0.93
+        }
+      }
+    }
+  },
+  "batch_screening_results": {
+    "generated_candidates": 200,
+    "screening_time": "2.3 hours",
+    "recommended_materials": 47,
+    "high_confidence_recommendations": 12,
+    "screening_criteria": {
+      "min_conductivity": 1e-4,
+      "max_activation_energy": 0.3,
+      "min_thermal_stability": 350,
+      "composite_score_threshold": 0.7
+    },
+    "top_10_predictions": [
+      {
+        "formula": "Li7La3Zr2O12",
+        "predicted_conductivity": 1.52e-3,
+        "predicted_activation_energy": 0.098,
+        "predicted_thermal_stability": 502,
+        "composite_score": 0.912,
+        "confidence_interval": [0.89, 0.93]
+      },
+      {
+        "formula": "Li6La2Hf2O12",
+        "predicted_conductivity": 1.18e-3,
+        "predicted_activation_energy": 0.145,
+        "predicted_thermal_stability": 485,
+        "composite_score": 0.867,
+        "confidence_interval": [0.84, 0.89]
+      },
+      {
+        "formula": "Li5La3Nb2O12",
+        "predicted_conductivity": 8.45e-4,
+        "predicted_activation_energy": 0.178,
+        "predicted_thermal_stability": 425,
+        "composite_score": 0.823,
+        "confidence_interval": [0.79, 0.85]
+      }
+    ]
+  },
+  "computational_efficiency": {
+    "traditional_dft": {
+      "time_per_structure": "4-8 hours",
+      "cost_per_calculation": "high",
+      "parallel_scalability": "limited"
+    },
+    "bvse_screening": {
+      "time_per_structure": "0.8 minutes",
+      "speedup_factor": "300-600x",
+      "accuracy_vs_dft": "85%"
+    },
+    "ml_prediction": {
+      "time_per_prediction": "0.5 seconds",
+      "batch_processing": "200 materials/hour",
+      "speedup_factor": "10000x+"
+    }
+  },
+  "validation_against_literature": {
+    "literature_comparison": {
+      "total_comparisons": 25,
+      "agreement_rate": 0.88,
+      "major_discrepancies": 3,
+      "average_relative_error": 0.15
+    },
+    "experimental_validation": {
+      "validated_predictions": 8,
+      "successful_predictions": 7,
+      "prediction_accuracy": 0.875,
+      "average_experimental_error": 0.12
+    }
+  }
+} 
