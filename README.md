@@ -1,6 +1,6 @@
 # 钙钛矿固态电解质多尺度智能探索平台  
 Multiscale Computational & Machine-Learning-Driven Intelligent Design and Screening Platform for Perovskite Solid Electrolytes
-> **版本**: 6.9  **作者**: Luna Zhang  **项目建立**：2025-02-27     **最后更新**: 2025-07-23
+> **版本**: 6.9  **作者**: Luna Zhang  **项目建立**：2025-02-27  **最后更新**: 2025-07-23
 ---
 
 ## 项目概述
