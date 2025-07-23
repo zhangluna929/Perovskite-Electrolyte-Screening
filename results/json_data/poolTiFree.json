@@ -1,0 +1,861 @@
+{
+  "ti_free_count": 45,
+  "generated_at": "E:\\AAA读博材料整理\\我的github\\钙钛矿项目\\data",
+  "materials": [
+    {
+      "file": "01Li-La-Ti–O₃ 主族， NbZrAlGa 衍生物\\Li7La3Zr2O12_mp-942733_computed.cif",
+      "formula": "Li28 La12 Zr8 O48",
+      "composition": "Li28 La12 Zr8 O48",
+      "space_group": 142,
+      "lattice_params": {
+        "a": 11.310619271384745,
+        "b": 11.31061927,
+        "c": 11.31061927,
+        "alpha": 108.37749579999999,
+        "beta": 108.37749580506124,
+        "gamma": 111.68153854475987,
+        "volume": 1112.6284755972642
+      },
+      "density": 5.0130950168523,
+      "num_sites": 96,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (1).cif",
+      "formula": "Li2 Nb2 O6",
+      "composition": "Li+2 Nb5+2 O2-6",
+      "space_group": 167,
+      "lattice_params": {
+        "a": 5.269437750000001,
+        "b": 5.26943775,
+        "c": 5.543735881590017,
+        "alpha": 61.6236852806458,
+        "beta": 61.6236852806458,
+        "gamma": 59.99999999999999,
+        "volume": 111.44216234925644
+      },
+      "density": 4.4059331986889365,
+      "num_sites": 10,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (2).cif",
+      "formula": "Li2 Nb2 O6",
+      "composition": "Li+2 Nb5+2 O2-6",
+      "space_group": 148,
+      "lattice_params": {
+        "a": 5.284847700000001,
+        "b": 5.2848476999999985,
+        "c": 5.72653524167544,
+        "alpha": 62.520255055961435,
+        "beta": 62.520255055961435,
+        "gamma": 60.00000000000001,
+        "volume": 117.21291399190964
+      },
+      "density": 4.1890155794792525,
+      "num_sites": 10,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (3).cif",
+      "formula": "Li8 Nb8 O24",
+      "composition": "Li+8 Nb5+8 O2-24",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.302477,
+        "b": 5.56891,
+        "c": 15.149082,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 447.33750279177997
+      },
+      "density": 4.390481189383467,
+      "num_sites": 40,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3.cif",
+      "formula": "Li2 Nb2 O6",
+      "composition": "Li+2 Nb5+2 O2-6",
+      "space_group": 1,
+      "lattice_params": {
+        "a": 5.153462456223588,
+        "b": 5.15394329,
+        "c": 5.530973499780291,
+        "alpha": 90.01855368089154,
+        "beta": 117.75975222947007,
+        "gamma": 119.98499827414398,
+        "volume": 107.26559038214015
+      },
+      "density": 4.577485856172795,
+      "num_sites": 10,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-674361_computed.cif",
+      "formula": "Li10 Nb10 O30",
+      "composition": "Li10 Nb10 O30",
+      "space_group": 1,
+      "lattice_params": {
+        "a": 5.249952999999999,
+        "b": 5.58339653,
+        "c": 21.72670413,
+        "alpha": 94.76912966,
+        "beta": 90.01660590000002,
+        "gamma": 117.97801420999998,
+        "volume": 559.9273656041144
+      },
+      "density": 4.3845572925205785,
+      "num_sites": 50,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-686057_computed.cif",
+      "formula": "Li8 Nb8 O24",
+      "composition": "Li8 Nb8 O24",
+      "space_group": 1,
+      "lattice_params": {
+        "a": 5.231451,
+        "b": 5.581548100000001,
+        "c": 17.45918489,
+        "alpha": 87.64801976,
+        "beta": 81.39922404000001,
+        "gamma": 62.14214104999999,
+        "volume": 445.40877197554727
+      },
+      "density": 4.409493065441712,
+      "num_sites": 40,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-760701_computed.cif",
+      "formula": "Li4 Nb4 O12",
+      "composition": "Li4 Nb4 O12",
+      "space_group": 15,
+      "lattice_params": {
+        "a": 5.27535238,
+        "b": 5.275352379999999,
+        "c": 10.04535152,
+        "alpha": 91.95049852,
+        "beta": 91.95049852,
+        "gamma": 114.93731973,
+        "volume": 252.98420872685892
+      },
+      "density": 3.881718351507066,
+      "num_sites": 20,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiTaO3_mp-3666_computed.cif",
+      "formula": "Li2 Ta2 O6",
+      "composition": "Li2 Ta2 O6",
+      "space_group": 161,
+      "lattice_params": {
+        "a": 5.2082902216816125,
+        "b": 5.208290221681612,
+        "c": 5.53381893,
+        "alpha": 61.92757005726688,
+        "beta": 61.9275700572669,
+        "gamma": 59.999997144903745,
+        "volume": 109.13330688463513
+      },
+      "density": 7.178371531621697,
+      "num_sites": 10,
+      "has_li": true,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\BaTiO3_mp-5933_computed_Ti→Nb.cif",
+      "formula": "Ba6 Nb6 O18",
+      "composition": "Ba6 Nb6 O18",
+      "space_group": 194,
+      "lattice_params": {
+        "a": 5.787557779776579,
+        "b": 5.78755778,
+        "c": 14.097085,
+        "alpha": 90.00000000000001,
+        "beta": 90.0,
+        "gamma": 119.99999748383097,
+        "volume": 408.93157076743046
+      },
+      "density": 6.778851639428967,
+      "num_sites": 30,
+      "has_li": false,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\BaTiO3_mp-5933_computed_Ti→Sn.cif",
+      "formula": "Ba6 Sn6 O18",
+      "composition": "Ba6 Sn6 O18",
+      "space_group": 194,
+      "lattice_params": {
+        "a": 5.787557779776579,
+        "b": 5.78755778,
+        "c": 14.097085,
+        "alpha": 90.00000000000001,
+        "beta": 90.0,
+        "gamma": 119.99999748383097,
+        "volume": 408.93157076743046
+      },
+      "density": 7.40753265306589,
+      "num_sites": 30,
+      "has_li": false,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\BaTiO3_mp-5933_computed_Ti→Zr.cif",
+      "formula": "Ba6 Zr6 O18",
+      "composition": "Ba6 Zr6 O18",
+      "space_group": 194,
+      "lattice_params": {
+        "a": 5.787557779776579,
+        "b": 5.78755778,
+        "c": 14.097085,
+        "alpha": 90.00000000000001,
+        "beta": 90.0,
+        "gamma": 119.99999748383097,
+        "volume": 408.93157076743046
+      },
+      "density": 6.73786202774958,
+      "num_sites": 30,
+      "has_li": false,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_mp-551830_computed_Ti→Nb.cif",
+      "formula": "Sr1 Nb1 O3",
+      "composition": "Sr1 Nb1 O3",
+      "space_group": 221,
+      "lattice_params": {
+        "a": 3.94285145,
+        "b": 3.94285145,
+        "c": 3.946499,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 61.35257953170382
+      },
+      "density": 6.185135093990052,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_mp-551830_computed_Ti→Sn.cif",
+      "formula": "Sr1 Sn1 O3",
+      "composition": "Sr1 Sn1 O3",
+      "space_group": 221,
+      "lattice_params": {
+        "a": 3.94285145,
+        "b": 3.94285145,
+        "c": 3.946499,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 61.35257953170382
+      },
+      "density": 6.883523318197633,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_mp-551830_computed_Ti→Zr.cif",
+      "formula": "Sr1 Zr1 O3",
+      "composition": "Sr1 Zr1 O3",
+      "space_group": 221,
+      "lattice_params": {
+        "a": 3.94285145,
+        "b": 3.94285145,
+        "c": 3.946499,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 61.35257953170382
+      },
+      "density": 6.1396006154695035,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "None"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\BaTiO3_mp-5933_computed_Ti→Zr.cif",
+      "formula": "Ba6 Zr6 O18",
+      "composition": "Ba6 Zr6 O18",
+      "space_group": 194,
+      "lattice_params": {
+        "a": 5.7875579995720505,
+        "b": 5.78755778,
+        "c": 14.097085,
+        "alpha": 90.00000000000001,
+        "beta": 90.0,
+        "gamma": 120.00000125500002,
+        "volume": 408.93157075779635
+      },
+      "density": 6.737862027908319,
+      "num_sites": 30,
+      "has_li": false,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\BaTiO3_mp-5933_computed_Ti→Nb.cif",
+      "formula": "Ba6 Nb6 O18",
+      "composition": "Ba6 Nb6 O18",
+      "space_group": 194,
+      "lattice_params": {
+        "a": 5.7875579995720505,
+        "b": 5.78755778,
+        "c": 14.097085,
+        "alpha": 90.00000000000001,
+        "beta": 90.0,
+        "gamma": 120.00000125500002,
+        "volume": 408.93157075779635
+      },
+      "density": 6.778851639588672,
+      "num_sites": 30,
+      "has_li": false,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\BaTiO3_mp-5933_computed_Ti→Sn.cif",
+      "formula": "Ba6 Sn6 O18",
+      "composition": "Ba6 Sn6 O18",
+      "space_group": 194,
+      "lattice_params": {
+        "a": 5.7875579995720505,
+        "b": 5.78755778,
+        "c": 14.097085,
+        "alpha": 90.00000000000001,
+        "beta": 90.0,
+        "gamma": 120.00000125500002,
+        "volume": 408.93157075779635
+      },
+      "density": 7.4075326532404056,
+      "num_sites": 30,
+      "has_li": false,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Zr.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "O2-3 Sr2+1 Ti4+1",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.904876729320398,
+        "b": 3.9048767293203976,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.8125389852027
+      },
+      "density": 5.093987781028516,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Nb.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "O2-3 Sr2+1 Ti4+1",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.904876729320398,
+        "b": 3.9048767293203976,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.8125389852027
+      },
+      "density": 5.093987781028516,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Sn.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "O2-3 Sr2+1 Ti4+1",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.904876729320398,
+        "b": 3.9048767293203976,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.8125389852027
+      },
+      "density": 5.093987781028516,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_mp-551830_computed_Ti→Zr.cif",
+      "formula": "Sr1 Zr1 O3",
+      "composition": "O3 Sr1 Zr1",
+      "space_group": 221,
+      "lattice_params": {
+        "a": 3.942851452350787,
+        "b": 3.942851452692745,
+        "c": 3.9464989993092807,
+        "alpha": 90.00000000000001,
+        "beta": 90.00000000496459,
+        "gamma": 90.00000000000001,
+        "volume": 61.35257959944552
+      },
+      "density": 6.139600608690539,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_mp-551830_computed_Ti→Nb.cif",
+      "formula": "Sr1 Nb1 O3",
+      "composition": "O3 Sr1 Nb1",
+      "space_group": 221,
+      "lattice_params": {
+        "a": 3.942851452350787,
+        "b": 3.942851452692745,
+        "c": 3.9464989993092807,
+        "alpha": 90.00000000000001,
+        "beta": 90.00000000496459,
+        "gamma": 90.00000000000001,
+        "volume": 61.35257959944552
+      },
+      "density": 6.18513508716081,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_mp-551830_computed_Ti→Sn.cif",
+      "formula": "Sr1 Sn1 O3",
+      "composition": "O3 Sr1 Sn1",
+      "space_group": 221,
+      "lattice_params": {
+        "a": 3.942851452350787,
+        "b": 3.942851452692745,
+        "c": 3.9464989993092807,
+        "alpha": 90.00000000000001,
+        "beta": 90.00000000496459,
+        "gamma": 90.00000000000001,
+        "volume": 61.35257959944552
+      },
+      "density": 6.883523310597274,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "composition": "Li+4 Eu3+4 Ti4+4 O2-16",
+      "space_group": 57,
+      "lattice_params": {
+        "a": 5.30601,
+        "b": 5.35771606,
+        "c": 11.99035913,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 340.86306833008626
+      },
+      "density": 5.276294683966726,
+      "num_sites": 28,
+      "has_li": true,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Nb_Ti→Zr.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Nb_Ti→Nb.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Nb_Ti→Sn.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Sn_Ti→Zr.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Sn_Ti→Nb.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Sn_Ti→Sn.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Sn"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Zr_Ti→Zr.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Zr"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Zr_Ti→Nb.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Nb"
+    },
+    {
+      "file": "generated_ti_free\\SrTiO3_Ti→Zr_Ti→Sn.cif",
+      "formula": "Sr1 Ti1 O3",
+      "composition": "Sr2+1 Ti4+1 O2-3",
+      "space_group": 123,
+      "lattice_params": {
+        "a": 3.90487673,
+        "b": 3.90487673,
+        "c": 3.92263213,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0,
+        "volume": 59.812539006022156
+      },
+      "density": 5.093987779255409,
+      "num_sites": 5,
+      "has_li": false,
+      "replacement": "Ti→Sn"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "calculation_parameters": {
+    "max_ea_threshold": 0.3,
+    "method": "简化BV分析估算",
+    "note": "实际BVSE需要更精确的计算"
+  },
+  "summary": {
+    "total_calculated": 21,
+    "qualified_count": 21,
+    "pass_rate": 1.0
+  },
+  "qualified_materials": [
+    {
+      "file": "01Li-La-Ti–O₃ 主族， NbZrAlGa 衍生物\\Li7La3Zr2O12_mp-942733_computed.cif",
+      "formula": "Li28 La12 Zr8 O48",
+      "estimated_ea": 0.1,
+      "li_sites_count": 28,
+      "avg_li_distance": 5.151151130662939,
+      "bv_analysis": {
+        "Li": 1.0,
+        "La": 3.0,
+        "Zr": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (1).cif",
+      "formula": "Li2 Nb2 O6",
+      "estimated_ea": 0.1,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.8242640378886517,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (2).cif",
+      "formula": "Li2 Nb2 O6",
+      "estimated_ea": 0.16710688302822518,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.164465584858874,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (3).cif",
+      "formula": "Li8 Nb8 O24",
+      "estimated_ea": 0.1,
+      "li_sites_count": 8,
+      "avg_li_distance": 5.428540520467927,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3.cif",
+      "formula": "Li2 Nb2 O6",
+      "estimated_ea": 0.1,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.7667917383377656,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-674361_computed.cif",
+      "formula": "Li10 Nb10 O30",
+      "estimated_ea": 0.1,
+      "li_sites_count": 10,
+      "avg_li_distance": 6.66917262090332,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-686057_computed.cif",
+      "formula": "Li8 Nb8 O24",
+      "estimated_ea": 0.1,
+      "li_sites_count": 8,
+      "avg_li_distance": 5.661479146801123,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-760701_computed.cif",
+      "formula": "Li4 Nb4 O12",
+      "estimated_ea": 0.1,
+      "li_sites_count": 4,
+      "avg_li_distance": 4.582307048417359,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiTaO3_mp-3666_computed.cif",
+      "formula": "Li2 Ta2 O6",
+      "estimated_ea": 0.1,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.799652505231024,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Ta": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    }
+  ],
+  "all_results": {
+    "Li7La3Zr2O12_mp-942733_computed.cif": {
+      "file": "01Li-La-Ti–O₃ 主族， NbZrAlGa 衍生物\\Li7La3Zr2O12_mp-942733_computed.cif",
+      "formula": "Li28 La12 Zr8 O48",
+      "estimated_ea": 0.1,
+      "li_sites_count": 28,
+      "avg_li_distance": 5.151151130662939,
+      "bv_analysis": {
+        "Li": 1.0,
+        "La": 3.0,
+        "Zr": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3 (1).cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (1).cif",
+      "formula": "Li2 Nb2 O6",
+      "estimated_ea": 0.1,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.8242640378886517,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3 (2).cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (2).cif",
+      "formula": "Li2 Nb2 O6",
+      "estimated_ea": 0.16710688302822518,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.164465584858874,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3 (3).cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3 (3).cif",
+      "formula": "Li8 Nb8 O24",
+      "estimated_ea": 0.1,
+      "li_sites_count": 8,
+      "avg_li_distance": 5.428540520467927,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3.cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3.cif",
+      "formula": "Li2 Nb2 O6",
+      "estimated_ea": 0.1,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.7667917383377656,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3_mp-674361_computed.cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-674361_computed.cif",
+      "formula": "Li10 Nb10 O30",
+      "estimated_ea": 0.1,
+      "li_sites_count": 10,
+      "avg_li_distance": 6.66917262090332,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3_mp-686057_computed.cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-686057_computed.cif",
+      "formula": "Li8 Nb8 O24",
+      "estimated_ea": 0.1,
+      "li_sites_count": 8,
+      "avg_li_distance": 5.661479146801123,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiNbO3_mp-760701_computed.cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiNbO3_mp-760701_computed.cif",
+      "formula": "Li4 Nb4 O12",
+      "estimated_ea": 0.1,
+      "li_sites_count": 4,
+      "avg_li_distance": 4.582307048417359,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Nb": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiTaO3_mp-3666_computed.cif": {
+      "file": "02经典钙钛矿锂氧族 (TaNb 系)\\LiTaO3_mp-3666_computed.cif",
+      "formula": "Li2 Ta2 O6",
+      "estimated_ea": 0.1,
+      "li_sites_count": 2,
+      "avg_li_distance": 3.799652505231024,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Ta": 5.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Zr.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Nb.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Sn.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Nb_Ti→Zr.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Nb_Ti→Nb.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Nb_Ti→Sn.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Nb_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Sn_Ti→Zr.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Sn_Ti→Nb.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Sn_Ti→Sn.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Sn_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Zr_Ti→Zr.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Zr.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Zr_Ti→Nb.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Nb.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    },
+    "LiEuTiO4_Ti→Zr_Ti→Sn.cif": {
+      "file": "generated_ti_free\\LiEuTiO4_Ti→Zr_Ti→Sn.cif",
+      "formula": "Li4 Eu4 Ti4 O16",
+      "estimated_ea": 0.19211329066058014,
+      "li_sites_count": 4,
+      "avg_li_distance": 3.0394335466970994,
+      "bv_analysis": {
+        "Li": 1.0,
+        "Eu": 3.0,
+        "Ti": 4.0,
+        "O": -2.0
+      },
+      "qualified": true
+    }
+  }
+}
